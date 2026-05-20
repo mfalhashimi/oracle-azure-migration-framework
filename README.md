@@ -4,24 +4,23 @@ Enterprise-grade reference architecture for migrating Oracle workloads to Micros
 
 ---
 
-# Overview
-
-
-
-This repository demonstrates enterprise migration strategies for modernising Oracle environments into Azure-native data platforms while preserving security, resilience, and operational continuity.
-
-The framework includes:
-- Oracle RAC & Data Guard migration patterns
-- Azure SQL Managed Instance architecture
-- Hybrid replication strategies
-- Governance & compliance integration
-- Monitoring & observability
-- Disaster recovery design
-- Enterprise networking concepts
-
-## Enterprise Reference Architecture
+# Enterprise Reference Architecture
 
 ![Architecture](architecture/oracle2azuremigration.png)
+
+---
+
+# Overview
+
+This repository demonstrates enterprise migration strategies for modernising Oracle environments into Azure-native data platforms while preserving:
+
+- High Availability
+- Security & Compliance
+- Disaster Recovery
+- Governance & Lineage
+- Operational Continuity
+- Enterprise Observability
+
 ---
 
 # Architecture Components
@@ -35,9 +34,23 @@ The framework includes:
 ## Azure Platform
 - Azure SQL Managed Instance
 - Azure Data Factory
-- Azure Monitor
-- Microsoft Purview
+- Azure Data Lake Gen2
 - Azure Synapse Analytics
+- Microsoft Purview
+- Azure Monitor
+
+---
+
+# Enterprise Migration Capabilities
+
+| Capability | Description |
+|---|---|
+| Zero-Downtime Migration | Hybrid GoldenGate + ADF replication |
+| Governance | Purview lineage and cataloguing |
+| HA/DR | Failover groups and DR alignment |
+| Monitoring | Azure Monitor + Log Analytics |
+| CDC Pipelines | Incremental Oracle ingestion |
+| Data Lake Integration | Synapse-ready analytics platform |
 
 ---
 
@@ -47,5 +60,3 @@ The framework includes:
 architecture/
 docs/
 scripts/
-governance/
-runbooks/
