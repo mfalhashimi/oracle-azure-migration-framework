@@ -6,9 +6,7 @@ Enterprise-grade reference architecture for migrating Oracle workloads to Micros
 
 # Overview
 
-## Enterprise Reference Architecture
 
-![Architecture](architecture/a_detailed_infographic_architecture_diagram_on_a.png)
 
 This repository demonstrates enterprise migration strategies for modernising Oracle environments into Azure-native data platforms while preserving security, resilience, and operational continuity.
 
@@ -21,6 +19,9 @@ The framework includes:
 - Disaster recovery design
 - Enterprise networking concepts
 
+## Enterprise Reference Architecture
+
+![Architecture](architecture/a_detailed_infographic_architecture_diagram_on_a.png)
 ---
 
 # Architecture Components
