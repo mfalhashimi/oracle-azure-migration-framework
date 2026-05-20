@@ -58,6 +58,10 @@ This repository demonstrates enterprise migration strategies for modernising Ora
 See: [Project Roadmap](roadmap.md)
 # Repository Structure
 
+# Documentation
+
+- [Oracle Migration Checklist](docs/oracle-migration-checklist.md)
+- [Project Roadmap](roadmap.md)
 ```text
 architecture/
 docs/
