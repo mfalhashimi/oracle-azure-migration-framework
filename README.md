@@ -21,7 +21,7 @@ The framework includes:
 
 ## Enterprise Reference Architecture
 
-![Architecture](architecture/a_detailed_infographic_architecture_diagram_on_a.png)
+![Architecture](architecture/oracle2azuremigration.png)
 ---
 
 # Architecture Components
