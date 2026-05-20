@@ -59,7 +59,7 @@ See: [Project Roadmap](roadmap.md)
 # Repository Structure
 
 # Documentation
-
+- [Oracle Health Check Script](scripts/oracle-health-check.sql)
 - [Oracle Migration Checklist](docs/oracle-migration-checklist.md)
 - [Project Roadmap](roadmap.md)
 ```text
