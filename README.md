@@ -53,7 +53,9 @@ This repository demonstrates enterprise migration strategies for modernising Ora
 | Data Lake Integration | Synapse-ready analytics platform |
 
 ---
+# Roadmap
 
+See: [Project Roadmap](roadmap.md)
 # Repository Structure
 
 ```text
